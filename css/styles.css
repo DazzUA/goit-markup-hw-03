@@ -264,11 +264,9 @@ button {
 .foter {
   background-color: #2e2f42;
 }
-.foter-blosk{display: flex;
-flex-direction: column;
-gap: 17.5px;
-padding: 101.5px 0 100px;}
-.logo-footer {
+.footer-container{
+padding: 100px 0 ;}
+.logo-footer {display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -276,13 +274,13 @@ padding: 101.5px 0 100px;}
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
+  text-transform: uppercase;margin-bottom: 16px;
 }
 .logo-accent-footer {
   color: #f4f4fd;
 }
 .footer-text {
-  width: 264px;
+  max-width: 264px;
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
