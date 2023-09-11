@@ -139,7 +139,7 @@ button {
   line-height: 1.5;
   cursor: pointer;
   border-radius: 4px;
-  border: none;
+  border: none;min-width: 169px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -184,14 +184,13 @@ button {
 }
 .sestion-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin: 0px auto 72px;
+  margin: 0px auto 72px;text-align: center;
 }
 .team-img {
   background-color: #ffffff;
@@ -201,7 +200,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  
   padding: 32px 0px;
 }
 .team-title {
@@ -210,14 +209,14 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4px;text-align: center;margin-bottom: 8px
 }
 .team-text {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.32px;text-align: center;
 }
 /*our portfolio*/
 .portfolio-section {
@@ -238,6 +237,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .port-title {
   color: #2e2f42;
@@ -245,16 +245,14 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4px;margin-bottom: 8px
 }
-.port-li {
-  margin-bottom: 24px;
-}
+
 .tumb-portfolio {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 32px 16px;
+  
+  padding: 32px 16px;border:1px solid #e7e9fc;
 }
 .port-text {
   color: #434455;
