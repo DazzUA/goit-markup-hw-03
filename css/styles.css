@@ -34,7 +34,7 @@ button {
 }
 /*header*/
 .header {
-  padding: 25.5px 0px;
+  padding: 25.5px 0px;border-bottom: 1px solid #e7e9fc;
 }
 .header-inner {
   display: flex;
