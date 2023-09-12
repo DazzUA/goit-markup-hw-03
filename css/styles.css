@@ -251,7 +251,7 @@ button {
   gap: 24px;
   row-gap: 48px;
 }
-.port-li{border:1px solid #e7e9fc;border-top: none;}
+.port-li{border-top: none;}
 .port-title {
   color: #2e2f42;
   font-size: 20px;
@@ -262,7 +262,7 @@ button {
 }
 
 .tumb-portfolio {
-  display: flex;
+  display: flex;border: 1px solid #e7e9fc;
   flex-direction: column;
   border-top: none;
   padding: 32px 16px;
