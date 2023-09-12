@@ -251,6 +251,7 @@ button {
   gap: 24px;
   row-gap: 48px;
 }
+.port-li{border:1px solid #e7e9fc;border-top: none;}
 .port-title {
   color: #2e2f42;
   font-size: 20px;
@@ -264,7 +265,7 @@ button {
   display: flex;
   flex-direction: column;
   border-top: none;
-  padding: 32px 16px;border:1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 .port-text {
   color: #434455;
