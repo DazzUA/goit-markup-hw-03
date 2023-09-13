@@ -163,14 +163,14 @@ button {
 .advantages-section {
   padding: 120px 0;
 }
-.adv-list {
+.adv-list {width: calc((100% - 72px) / 4);
   display: flex;                               
   gap: 24px;
   padding: 0 156px;
 }
 .list-item{ display: flex;
   flex-direction: column;
-  width: calc((100% - 72px) / 4);}
+ }
 .adv-title {
   margin-bottom: 8px;
   color: #2e2f42;
