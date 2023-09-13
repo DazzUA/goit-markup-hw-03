@@ -163,7 +163,7 @@ button {
 .advantages-section {
   padding: 120px 0;
 }
-.adv-list {width: calc((100% - 72px) / 4);
+.adv-list { flex-basis: calc((100% - 3 * 24px) / 4);
   display: flex;                               
   gap: 24px;
   padding: 0 156px;
