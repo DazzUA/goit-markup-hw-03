@@ -170,7 +170,7 @@ button {
 }
 .list-item{ display: flex;
   flex-direction: column;
-  flex-basis: calc((100% - 3 * 24px) / 4);}
+  width: calc((100% - 72px) / 4);}
 .adv-title {
   margin-bottom: 8px;
   color: #2e2f42;
