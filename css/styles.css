@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .visually-hidden {
   position: absolute;
@@ -35,7 +35,9 @@ h5,
 h6 {
   margin: 0;
 }
-img{display: block;}
+img {
+  display: block;
+}
 button {
   font-family: inherit;
 }
@@ -45,19 +47,19 @@ button {
   padding: 0 15px;
 }
 /*header*/
-.header-container{display: flex; align-items: center;
-  justify-content: space-between;}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-
-  
 
 .header-nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -66,22 +68,29 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;margin-right: 76px
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-accent {
   color: #2e2f42;
 }
+.nav-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
 .nav-link {
-  display: flex;gap:40px;
+  display: flex;
+  gap: 40px;
   justify-content: center;
   flex-grow: 1;
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   padding: 24px 0;
 }
 .nav-link:active {
@@ -95,15 +104,18 @@ button {
   color: #404bbf;
 }
 .adress {
-  
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
 }
-.adress-list{display:flex;gap: 40px;}
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
 .adress-ul {
   color: #434455;
 }
@@ -147,11 +159,12 @@ button {
   background-color: #4d5ae5;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.03em;
   line-height: 1.5;
   cursor: pointer;
   border-radius: 4px;
-  border: none;min-width: 169px;
+  border: none;
+  min-width: 169px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -163,29 +176,31 @@ button {
 .advantages-section {
   padding: 120px 0;
 }
-.adv-list { 
-  display: flex;                               
+.adv-list {
+  display: flex;
   gap: 24px;
   padding-left: 0;
 }
-.list-item{ display: flex;
-  flex-direction: column;flex-basis: calc((100% - 3 * 24px) / 4)
- }
+.list-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .adv-title {
   margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .adv-text {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 /*team section*/
 .team-section {
@@ -201,10 +216,11 @@ button {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 111.111%;
-  letter-spacing: 0.72px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin: 0px auto 72px;text-align: center;
+  margin: 0px auto 72px;
+  text-align: center;
 }
 .team-img {
   background-color: #ffffff;
@@ -214,7 +230,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding: 32px 0px;
 }
 .team-title {
@@ -222,15 +238,18 @@ button {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;text-align: center;margin-bottom: 8px
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-text {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;text-align: center;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /*our portfolio*/
 .portfolio-section {
@@ -242,8 +261,8 @@ button {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 111.111%;
-  letter-spacing: 0.72px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -253,18 +272,22 @@ button {
   gap: 24px;
   row-gap: 48px;
 }
-.port-li{border-top: none;}
+.port-li {
+  border-top: none;
+}
 .port-title {
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;margin-bottom: 8px
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .tumb-portfolio {
-  display: flex;border: 1px solid #e7e9fc;
+  display: flex;
+  border: 1px solid #e7e9fc;
   flex-direction: column;
   border-top: none;
   padding: 32px 16px;
@@ -274,22 +297,25 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
 }
 .foter {
   background-color: #2e2f42;
 }
-.foter{
-padding: 100px 0 ;}
-.logo-footer {display: inline-block;
+.foter {
+  padding: 100px 0;
+}
+.logo-footer {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;margin-bottom: 16px;
+  letter-spacing: 0.02;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .logo-accent-footer {
   color: #f4f4fd;
@@ -301,6 +327,6 @@ padding: 100px 0 ;}
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
